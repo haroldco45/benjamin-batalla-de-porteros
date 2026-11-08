@@ -1,0 +1,26 @@
+{
+  "name": "Benjamín · Campeón · Batalla de Porteros 2026",
+  "short_name": "Benjamín",
+  "description": "El recuerdo de Benjamín, campeón de la categoría 2014-2015 en la Batalla de Porteros 2026 de Caucasia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
+  "lang": "es-CO",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
