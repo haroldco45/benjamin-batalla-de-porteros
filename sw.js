@@ -1,9 +1,9 @@
 // Service worker — Benjamín · Batalla de Porteros 2026 (Vibras Positivas HM)
-const CACHE = 'benjamin-v3';
+const CACHE = 'benjamin-v4';
 const SHELL = [
   './', 'index.html', 'manifest.json',
   'img/icon-192.png', 'img/icon-512.png', 'img/apple-touch-icon.png',
-  'img/emblema-batalla-de-porteros.jpg', 'img/benjamin-y-luis.jpg', 'img/atajada-14-2.jpg', 'img/poster-lenta.jpg', 'img/poster-semifinal.jpg', 'img/poster-final.jpg',
+  'img/emblema-batalla-de-porteros.jpg', 'img/benjamin-y-luis.jpg', 'img/benjamin-con-aymara-y-luis.jpg', 'img/benjamin-premios.jpg', 'img/atajada-14-2.jpg', 'img/poster-lenta.jpg', 'img/poster-semifinal.jpg', 'img/poster-final.jpg',
   'img/benjamin-semifinal-atajada.jpg', 'img/benjamin-semifinal-salida.jpg', 'img/benjamin-final-balon.jpg',
   'fonts/barlow-latin-400-normal.woff2', 'fonts/barlow-latin-500-normal.woff2', 'fonts/barlow-latin-600-normal.woff2', 'fonts/barlow-latin-700-normal.woff2',
   'fonts/barlow-condensed-latin-600-normal.woff2', 'fonts/barlow-condensed-latin-800-normal.woff2', 'fonts/barlow-condensed-latin-900-normal.woff2', 'fonts/barlow-condensed-latin-800-italic.woff2'
