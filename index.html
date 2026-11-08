@@ -13,13 +13,13 @@
 <meta property="og:url" content="https://benjamin-batalla-de-porteros.netlify.app/">
 <meta property="og:title" content="Benjamín · Campeón categoría 2014-2015">
 <meta property="og:description" content="Batalla de Porteros 2026 · Caucasia. El campeón de la casa: conoce su logro y déjale un mensaje.">
-<meta property="og:image" content="https://benjamin-batalla-de-porteros.netlify.app/img/og-benjamin.jpg">
+<meta property="og:image" content="https://benjamin-batalla-de-porteros.netlify.app/img/og-benjamin.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Benjamín · Campeón categoría 2014-2015">
 <meta name="twitter:description" content="Batalla de Porteros 2026 · Caucasia. El campeón de la casa: conoce su logro y déjale un mensaje.">
-<meta name="twitter:image" content="https://benjamin-batalla-de-porteros.netlify.app/img/og-benjamin.jpg">
+<meta name="twitter:image" content="https://benjamin-batalla-de-porteros.netlify.app/img/og-benjamin.jpg?v=2">
 
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" href="img/icon-192.png">
@@ -58,7 +58,7 @@ a{color:inherit}
 
 /* Portada */
 .hero{position:relative;min-height:100svh;display:grid;align-items:end;overflow:hidden;isolation:isolate}
-.hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 88%;z-index:-2;transform:scale(1.08);animation:drift 18s ease-in-out infinite alternate;filter:saturate(1.15)}
+.hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:14% 50%;z-index:-2;transform:scale(1.08);animation:drift 18s ease-in-out infinite alternate;filter:saturate(1.15)}
 @keyframes drift{to{transform:scale(1.18) translate(-2%,-1%)}}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:
   radial-gradient(120% 70% at 50% 110%,rgba(242,190,70,.28),transparent 60%),
@@ -193,7 +193,7 @@ footer b{color:var(--text)}
 </header>
 
 <section class="hero" style="padding:0">
-  <img class="hero-bg" src="img/emblema-batalla-de-porteros.jpg" alt="" aria-hidden="true">
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="img/poster-lenta.jpg" aria-hidden="true"><source src="video/benjamin-semifinal-camara-lenta.mp4" type="video/mp4"></video>
   <div class="beams"><span></span><span></span></div>
   <div class="wrap hero-in">
     <div class="kicker" data-es="Batalla de Porteros 2026 · Caucasia" data-en="Goalkeeper Battle 2026 · Caucasia">Batalla de Porteros 2026 · Caucasia</div>
@@ -201,7 +201,7 @@ footer b{color:var(--text)}
     <div class="title" data-es-html="Campeón de la <em>categoría 2014-2015</em>" data-en-html="Champion of the <em>2014-2015 category</em>">Campeón de la <em>categoría 2014-2015</em></div>
     <p class="lead" data-es="Atajada tras atajada llegó hasta el final y se quedó con el título. Este es el recuerdo del día en que Benjamín fue el mejor portero de su categoría." data-en="Save after save he made it to the end and took the title. This is the keepsake of the day Benjamín was the best goalkeeper in his category.">Atajada tras atajada llegó hasta el final y se quedó con el título. Este es el recuerdo del día en que Benjamín fue el mejor portero de su categoría.</p>
     <div class="ctas">
-      <a class="btn btn-gold" href="#ficha" data-es="Ver su logro" data-en="See his title">Ver su logro</a>
+      <a class="btn btn-gold" href="#video" data-es="Ver la semifinal y la final" data-en="Watch the semifinal and final">Ver la semifinal y la final</a>
       <a class="btn btn-ghost" href="#mensajes" data-es="Dejarle un mensaje" data-en="Leave him a message">Dejarle un mensaje</a>
     </div>
   </div>
@@ -225,6 +225,46 @@ footer b{color:var(--text)}
   </div>
 </section>
 
+<section id="video" style="padding-top:1rem">
+  <div class="wrap">
+    <div class="sec-h reveal">
+      <h2><small data-es="El camino al título" data-en="The road to the title">El camino al título</small><span data-es="Semifinal y final" data-en="Semifinal and final">Semifinal y final</span></h2>
+      <p data-es="Grabado desde detrás del arco: cada tiro, cada salida y cada atajada hasta quedar campeón." data-en="Filmed from behind the goal: every shot, every rush out and every save until he became champion.">Grabado desde detrás del arco: cada tiro, cada salida y cada atajada hasta quedar campeón.</p>
+    </div>
+    <div class="slow">
+      <div class="player reveal">
+        <span class="badge" data-es="Semifinal" data-en="Semifinal">Semifinal</span>
+        <video controls playsinline preload="metadata" poster="img/poster-semifinal.jpg"><source src="video/benjamin-semifinal.mp4" type="video/mp4"></video>
+        <div class="cap" data-es-html="La semifinal <span>· el paso a la final</span>" data-en-html="The semifinal <span>· the step to the final</span>">La semifinal <span>· el paso a la final</span></div>
+      </div>
+      <div class="player reveal">
+        <span class="badge" style="background:var(--gold);color:#1a1305" data-es="Final" data-en="Final">Final</span>
+        <video controls playsinline preload="metadata" poster="img/poster-final.jpg"><source src="video/benjamin-final.mp4" type="video/mp4"></video>
+        <div class="cap" data-es-html="La final <span>· el partido del título</span>" data-en-html="The final <span>· the title match</span>">La final <span>· el partido del título</span></div>
+      </div>
+    </div>
+    <div class="player reveal" style="margin-top:1rem">
+      <span class="badge" style="background:var(--gold);color:#1a1305" data-es="Cámara lenta" data-en="Slow motion">Cámara lenta</span>
+      <video class="auto" muted loop playsinline preload="none" poster="img/poster-lenta.jpg"><source src="video/benjamin-semifinal-camara-lenta.mp4" type="video/mp4"></video>
+      <div class="cap" data-es-html="Al piso y con el balón <span>· la atajada de la semifinal</span>" data-en-html="Down and holding the ball <span>· the semifinal save</span>">Al piso y con el balón <span>· la atajada de la semifinal</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="atajadas">
+  <div class="wrap">
+    <div class="sec-h reveal">
+      <h2><small data-es="Las fotos" data-en="The photos">Las fotos</small><span data-es="Las atajadas del campeón" data-en="The champion's saves">Las atajadas del campeón</span></h2>
+      <p data-es="Toca una foto para verla en grande." data-en="Tap a photo to see it full size.">Toca una foto para verla en grande.</p>
+    </div>
+    <div class="gal">
+      <figure class="reveal"><img src="img/benjamin-semifinal-atajada.jpg" alt="Benjamín en el piso con el balón en la semifinal" loading="lazy"><figcaption data-es-html="Balón asegurado <span>· semifinal</span>" data-en-html="Ball secured <span>· semifinal</span>">Balón asegurado <span>· semifinal</span></figcaption></figure>
+      <figure class="reveal"><img src="img/benjamin-semifinal-salida.jpg" alt="Benjamín saliendo a cortar el balón" loading="lazy"><figcaption data-es="Salida a tiempo" data-en="Rushing out on time">Salida a tiempo</figcaption></figure>
+      <figure class="reveal"><img src="img/benjamin-final-balon.jpg" alt="Benjamín con el balón en la final" loading="lazy"><figcaption data-es="En la final" data-en="In the final">En la final</figcaption></figure>
+    </div>
+  </div>
+</section>
+
 <section id="cuadro">
   <div class="wrap trophy">
     <div class="frame reveal"><div class="frame-in" id="tilt"><img src="img/emblema-batalla-de-porteros.jpg" alt="Guante dorado de la Batalla de Porteros 2026 Caucasia"></div></div>
@@ -244,7 +284,7 @@ footer b{color:var(--text)}
       <p data-es="Los dos hermanos se pararon en el arco en la misma Batalla de Porteros. Mira también el recuerdo de Jerónimo, con su video y sus atajadas en cámara lenta." data-en="Both brothers stood in goal at the same Goalkeeper Battle. See Jerónimo's keepsake too, with his video and slow-motion saves.">Los dos hermanos se pararon en el arco en la misma Batalla de Porteros. Mira también el recuerdo de Jerónimo, con su video y sus atajadas en cámara lenta.</p>
       <div class="ctas"><a class="btn btn-gold" href="https://batalla-de-porteros.netlify.app/" target="_blank" rel="noopener" data-es="Ver la app de Jerónimo" data-en="See Jerónimo's app">Ver la app de Jerónimo</a></div>
     </div>
-    <a class="player reveal" href="https://batalla-de-porteros.netlify.app/" target="_blank" rel="noopener" style="display:block"><span class="badge" data-es="Su hermano Jerónimo" data-en="His brother Jerónimo">Su hermano Jerónimo</span><img src="img/atajada-14-2.jpg" alt="Jerónimo, hermano de Benjamín, lanzándose por el balón" loading="lazy" style="width:100%;aspect-ratio:1440/660;object-fit:cover"></a>
+    <a class="player reveal" href="https://batalla-de-porteros.netlify.app/" target="_blank" rel="noopener" style="display:block"><span class="badge" data-es="Jerónimo con su papá Luis" data-en="Jerónimo with his dad Luis">Jerónimo con su papá Luis</span><img src="img/jeronimo-y-luis.jpg" alt="Jerónimo con su papá Luis en la Batalla de Porteros" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%"></a>
   </div>
 </section>
 

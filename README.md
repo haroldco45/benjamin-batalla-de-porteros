@@ -9,7 +9,8 @@ App recuerdo (PWA) de Benjamín, campeón de la categoría 2014-2015 en la Batal
 - Portada con el guante dorado del torneo, luces y el nombre animado
 - Ficha: Campeón, primer lugar, torneo, categoría 2014-2015, organizador y lugar
 - El guante dorado con brillo e inclinación al tocarlo
-- "Dos porteros en la familia": enlace a la app de Jerónimo
+- Semifinal y final en video, atajada en cámara lenta y fotos de las atajadas
+- "Dos porteros en la familia": foto de Jerónimo con su papá Luis y enlace a su app
 - Carta "para leer cuando seas grande"
 - Mensajes de felicitación que se envían por WhatsApp a Luis, el papá
 - Compartir por WhatsApp, copiar enlace, español / inglés, instalable
@@ -18,7 +19,7 @@ App recuerdo (PWA) de Benjamín, campeón de la categoría 2014-2015 en la Batal
 ## Archivos
 ```
 index.html  manifest.json  sw.js  README.md
-fonts/  img/
+fonts/  img/  video/
 ```
 
 ## Publicar
